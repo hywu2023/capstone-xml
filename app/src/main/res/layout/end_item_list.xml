@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="160dp"
+    android:layout_margin="30dp"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:id="@+id/ll_end_item_list_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/end_list">
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:gravity="center_horizontal">
+
+            <RelativeLayout
+                android:id="@+id/rl_end_item_list_0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+
+                <TextView
+                    android:id="@+id/txt_end_item_list_mediName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-65dp"
+                    android:layout_marginTop="6dp"
+                    android:text="medName"
+                    android:textColor="@color/darkgray"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_end_item_list_startDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="-65dp"
+                    android:layout_marginTop="55dp"
+                    android:text="00"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/etc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/txt_end_item_list_startDate"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="55dp"
+                    android:text="~"
+                    android:textSize="15dp"/>
+
+                <TextView
+                    android:id="@+id/txt_end_item_list_endDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/etc"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="55dp"
+                    android:text="00"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/txt_end_item_list_mediList"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-65dp"
+                    android:layout_marginTop="33dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="medList"
+                    android:textColor="@color/darkgray"
+                    android:textSize="15sp" />
+
+
+            </RelativeLayout>
+
+
+
+            <!--<RelativeLayout
+                android:id="@+id/rl_end_item_list"
+                android:layout_width="match_parent"
+                android:layout_below="@id/rl_end_item_list_0"
+                android:layout_height="40dp"
+                android:gravity="center">
+
+
+                <TextView
+                    android:id="@+id/txt_end_item_list_mediName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="mediName"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_end_item_list_2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/rl_end_item_list"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txt_end_item_list_startDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="00"
+                    android:textSize="16dp"/>
+
+                <TextView
+                    android:id="@+id/etc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/txt_end_item_list_startDate"
+                    android:layout_marginLeft="5dp"
+                    android:text="~"
+                    android:textSize="16dp"/>
+
+                <TextView
+                    android:id="@+id/txt_end_item_list_endDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/etc"
+                    android:layout_marginLeft="5dp"
+                    android:text="00"
+                    android:textSize="16dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/rl_end_item_list_2"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/etc2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="하루"
+                    android:textSize="16dp"/>
+
+                <TextView
+                    android:id="@+id/txt_end_item_list_timesPerDay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/etc2"
+                    android:layout_marginLeft="5dp"
+                    android:text="0"
+                    android:textSize="16dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/txt_end_item_list_timesPerDay"
+                    android:text="번"
+                    android:textSize="16dp" />
+
+            </RelativeLayout>-->
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
